@@ -1,4 +1,6 @@
 <?php namespace Config;
+//Add this to fetch the CLEARDB_DATABASE_URL
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
 /**
  * Database Configuration
